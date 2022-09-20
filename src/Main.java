@@ -17,9 +17,9 @@ public class Main {
 
         String prefix = "Было: " + bonusMiles + " стало: " + miles + ". Результаты вычислений ";
         String suffix = "совпадают" + "\u001B[0m";
-        if(bonusMiles == miles){
+        if (bonusMiles == miles) {
             System.out.println("\u001B[32m" + prefix + suffix);
-        }else{
+        } else {
             System.out.println("\u001B[31m" + prefix + "не " + suffix);
         }
     }
